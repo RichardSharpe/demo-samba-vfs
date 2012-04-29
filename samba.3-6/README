@@ -1,0 +1,7 @@
+Do something like the following:
+
+./autogen.sh
+./configure --with-samba-source=../../samba.3-6/source3/
+make
+
+Of course, you might have to change the name of your Samba source tree.

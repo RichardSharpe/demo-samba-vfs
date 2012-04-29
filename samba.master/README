@@ -1,0 +1,11 @@
+Do something like the following:
+
+./autogen.sh
+./configure --with-samba-source=../../samba.master/source3/
+make
+
+Of course, you might have to change the name of your Samba source tree.
+
+Also, note that there is a small difference between the Makefile.in here and
+the current master branch. This Makefile will really only run on systems with
+GNUmake.
